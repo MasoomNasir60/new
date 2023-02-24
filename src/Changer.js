@@ -8,7 +8,7 @@ import h1 from './img/i1.png';
 const Changer = () => {
   const [theme, settheme] = useState('white')
   const [icon, seticon] = useState(<LightModeIcon/>)
-console.log('hi');
+
   function im() {
     if(theme==='black'){
       settheme('white');
